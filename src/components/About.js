@@ -41,7 +41,7 @@ function About() {
             <div className="about-wrapper">
                 <h1 className={isVisible ? "about-header header-animation" : "about-header"} ref={containerRef}>About</h1>
                 <div className="about-img" >
-                    <img src={pic} alt="George under sakura tree" className={isVisible ? "me-picture img-animation" : "me-picture"}/>
+                    <img src="./images/me-picture.png" alt="George under sakura tree" className={isVisible ? "me-picture img-animation" : "me-picture"}/>
                 </div>
 
                 <div className="values-wrapper">
